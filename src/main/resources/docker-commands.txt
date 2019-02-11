@@ -1,0 +1,2 @@
+docker run --name=config-server --volume=/Users/hassanjamil/TimePassAPI/Config:/Config --network=my-custom-net -d -p 8888:8888 0daa95bb2fc9
+docker logs config-server
